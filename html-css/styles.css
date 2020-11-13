@@ -12,3 +12,186 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+
+
+body {
+  font-family: 'nunito', Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+header {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  height: 80px;
+  width: 100vw;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'nunito-bold', Arial, Helvetica, sans-serif;
+  color: rgb(42, 171, 226);
+  position: absolute;
+  left: 2vw;
+}
+
+nav {
+  color: white;
+  display: flex;
+  font-size: 18px;
+  position: absolute;
+  right: 2vw;
+}
+
+nav p {
+  margin: 30px;
+  font-family: 'nunito-regular', Arial, Helvetica, sans-serif;
+}
+
+main {
+  position: absolute;
+  top: 150px;
+  width: 50vw;
+  left: 15vw;
+  margin-right: 5vw;
+}
+
+h2 {
+  font-family: 'nunito-bold', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+article {
+  font-size: 16px;
+  line-height: 22.5px;
+}
+
+.img-grid {
+  margin-top: 25px;
+}
+
+.img-gallery {
+  display: flex;
+  margin-top: 25px;
+}
+
+.img-gallery h3 {
+  position: absolute;
+  left: 0;
+}
+
+.img-gallery h4 {
+  color: rgb(42, 171, 226);
+  position: absolute;
+  right: 0;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.top-row {
+  display: flex;
+}
+
+.bottom-row {
+  display: flex;
+}
+
+.devmtn-logo {
+  height: 120px;
+  padding: 30px;
+}
+
+aside {
+  position: absolute;
+  top: 150px;
+  right: 15vw;
+  width: 250px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 20px 5px rgba(102, 75, 75, .3);
+  width: 100%;
+  height: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-radius: 3%;
+}
+
+.profile-photo {
+  height: 175px;
+  margin: 20px;
+}
+
+.popular-articles {
+  box-shadow: 0px 0px 20px 5px rgba(102, 75, 75, .3);
+  border-radius: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: 'nunito-bold', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+ol {
+  font-size: 15px;
+  font-family: 'nunito-light', Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 10px 40px 0px 40px;
+  line-height: 30px;
+}
+
+
+footer {
+  background-color: rgb(42, 171, 226);
+  width: 100vw;
+  height: 5vh;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.footer-text {
+  position: absolute;
+  left: 2vw;
+  font-size: 18px;
+}
+
+.question-mark-circle {
+  position: absolute;
+  right: 2vw;
+  border: 3px solid black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-mark {
+  font-size: 18px;
+  text-align: center;
+}
