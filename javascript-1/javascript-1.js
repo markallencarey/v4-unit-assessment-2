@@ -42,7 +42,6 @@ const desert = ['rattlesnake', 'coyote']
 //CODE HERE
 
 const animals = [...forest, ...ocean, ...savannah, ...desert]
-// console.log('animals', animals)
 
 
 /*
@@ -53,7 +52,6 @@ const animals = [...forest, ...ocean, ...savannah, ...desert]
 //CODE HERE
 
 const animalsCopy = [...animals, 'elephant']
-// console.log('animalsCopy', animalsCopy)
 
 
 ////////////////////PROBLEM 4////////////////////
@@ -90,7 +88,6 @@ const compareNums = (num1, num2) => {
 const bestMovie = movieTitle => `${movieTitle} is the best movie ever!`
 
 bestMovie('Star Wars')
-// console.log("bestMovie('Star Wars')", bestMovie('Star Wars'))
   
 ////////////////////PROBLEM 6////////////////////
 /*
@@ -135,23 +132,21 @@ delete gameInfo.rating
     septagon: 7,
     octagon: 8
   }
-//DO NOT EDIT CODE ABOVE
+  //DO NOT EDIT CODE ABOVE
   
-/*
-    You only like even numbers, so get rid of the other shapes by
-    looping over the shapes object and deleting any property whose value is odd number.
-*/
-
-//CODE HERE
-
-for (let property in shapes) {
-    if (shapes[property] % 2 !== 0) {
-        console.log('shapes[property]', shapes[property])
-        delete shapes.property
+  /*
+  You only like even numbers, so get rid of the other shapes by
+  looping over the shapes object and deleting any property whose value is odd number.
+  */
+ 
+ //CODE HERE
+ 
+ for (let key in shapes) {
+     if (shapes[key] % 2 !== 0) {
+        delete shapes[key]
+        }
     }
-}
-// console.log('shapes', shapes)
-  
+    
 ////////////////////PROBLEM 9////////////////////
 
 //DO NOT EDIT CODE BELOW
@@ -194,12 +189,8 @@ const classes = [
 //CODE HERE
 
 for (let i = 0; i < classes.length; i++) {
-    // console.log('classes[i]', classes[i])
     for (let key in classes[i]) {
-        // console.log('key', key)
         if (classes[i][key] === true) {
-        // console.log('classes[i][key]', classes[i][key])
-        // console.log('true', true)
             classes[i][key] = false
         }  
     }
@@ -222,16 +213,13 @@ let pairsArray = []
 //CODE HERE
 
 for (let i = 0; i < lettersToPair.length; i++) {
-    // console.log('lettersToPair[i]', lettersToPair[i])
     for (let j = i + 1; j < lettersToPair.length; j++) {
-        // console.log(`does ${i} equal ${j}`)
         if (lettersToPair[i] === lettersToPair[j]) {
             pairsArray.push([i, j])
         }
     }
 }
 
-// console.log('pairsArray', pairsArray)
 
 //////////////////////////////////PROBLEMS 11-14//////////////////////////////////
 /*
@@ -312,7 +300,6 @@ function teachTrick(trick) {
   
 const teachStay = teachTrick.bind(fido, 'stay')
 
-console.log('fido', fido)
 
 ////////////////////PROBLEM 14////////////////////
 /*

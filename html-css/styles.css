@@ -55,9 +55,9 @@ nav p {
 main {
   position: absolute;
   top: 150px;
-  width: 50vw;
+  width: 45vw;
   left: 15vw;
-  margin-right: 5vw;
+  margin-right: 20px;
 }
 
 h2 {
@@ -89,7 +89,7 @@ article {
   color: rgb(42, 171, 226);
   position: absolute;
   right: 0;
-  margin: 30px;
+  margin-top: 30px;
   font-size: 14px;
 }
 
@@ -165,7 +165,7 @@ ol {
 footer {
   background-color: rgb(42, 171, 226);
   width: 100vw;
-  height: 5vh;
+  height: 70px;
   position: fixed;
   bottom: 0;
   display: flex;
